@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "95c7d347-b389-4c4d-8ca6-87040859f1ad",
+		"name": "mini-rag-app",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "47860660",
+		"_collection_link": "https://mohamed-abdelaal-s-team.postman.co/workspace/Team-Workspace~99f5a545-55b0-411a-8fd9-39148e7ccbd4/collection/47860660-95c7d347-b389-4c4d-8ca6-87040859f1ad?action=share&source=collection_link&creator=47860660"
+	},
+	"item": [
+		{
+			"name": "welcome-request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "api",
+			"value": "http://127.0.0.1:8000"
+		}
+	]
+}
